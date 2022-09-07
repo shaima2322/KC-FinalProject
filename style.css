@@ -1,0 +1,139 @@
+#logo{
+
+flex-direction: column;
+color: rgb(203, 211, 209);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(66, 88, 81);
+font-size: 30px;
+margin-top: -20px;
+}
+
+nav{
+width: 100%;
+
+}
+nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgb(224, 160, 200);
+margin-top: -100px;
+font-size: 25px;
+border-radius: 12px;
+}
+li{
+
+float: right;
+}
+li a{
+
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 1.3rem 1.3rem;
+    text-decoration: none;
+}
+nav ul :hover a {
+background-color: rgb(250, 171, 253);
+transition: 0.4s;
+}
+body{
+margin: 0;
+
+}
+.container{
+height: 1000px;
+margin-top: 100px;
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+
+.card{
+background-color: rgb(218, 171, 179);
+width: 470px;
+height: 540px;
+box-shadow: 0 4px 8px rgb(134, 96, 103);
+transition: 1s;
+text-align: center;
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+padding: 2px 16px;
+border-radius: 20px;
+margin: 60px;
+margin-top: 20px;
+
+}
+
+p{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p1{
+font-size: 50px;
+font-family: sans-serif;
+text-align: center;
+
+}
+button{
+    list-style-type: none;
+    color: rgb(247, 242, 246);
+    text-align: center;
+    float: center;
+    font-size: 19px;
+background-color: rgb(209, 157, 192);
+}
+
+.h1{
+text-align: center;
+font-size: 60px;
+font-family: sans-serif ;
+color:rgb(105,105,105);
+}
+.h2{
+
+text-align: center;
+    font-size: 70px;
+    color:rgb(105,105,105);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.containerr{
+    height: 1000px;
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+  
+    }
+    
+    
+    .cardd{
+    background-color: rgb(218, 171, 179);
+    width: 470px;
+    height: 540px;
+    box-shadow: 0 4px 8px rgb(134, 96, 103);
+    transition: 1s;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px 16px;
+    border-radius: 30px;
+    margin: 60px;
+    margin-top: 20px;
+    
+    }
+
+
+
+  
+    .footer{
+   
+        padding: 5rem;
+        color: rgb(20, 2, 2);
+        margin-bottom: 0;
+        background-color: rgb(207, 137, 170);
+        width: 100%;
+    
+       }
